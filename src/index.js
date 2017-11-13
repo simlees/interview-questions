@@ -1,17 +1,5 @@
-import { middleOfLinkedList } from './other/middle-of-linked-list';
+import { zigzagConversion } from './leetcode/zigzag-conversion';
 
-let list = {
-  val: 1,
-  next: {
-    val: 2,
-    next: {
-      val: 3,
-      next: {
-        val: 4,
-        next: null
-      }
-    }
-  }
-}
+let str = 'PAYPALISHIRING'
 
-middleOfLinkedList(list);
+console.log(zigzagConversion('A', 1)); 
