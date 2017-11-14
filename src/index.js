@@ -1,3 +1,3 @@
-import { letterCombinationsOfPhoneNumber } from './leetcode/letter-combinations-of-phone-number';
+import { exercise1 } from './hubspot/exercise1';
 
-console.log(letterCombinationsOfPhoneNumber('34'));
+exercise1();
