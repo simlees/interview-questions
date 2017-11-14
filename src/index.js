@@ -1,17 +1,3 @@
-import { middleOfLinkedList } from './other/middle-of-linked-list';
+import { letterCombinationsOfPhoneNumber } from './leetcode/letter-combinations-of-phone-number';
 
-let list = {
-  val: 1,
-  next: {
-    val: 2,
-    next: {
-      val: 3,
-      next: {
-        val: 4,
-        next: null
-      }
-    }
-  }
-}
-
-middleOfLinkedList(list);
+console.log(letterCombinationsOfPhoneNumber('34'));
